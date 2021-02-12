@@ -100,6 +100,30 @@
 - All from III.V NF (BCNF).
 - No multi-valued dependency.
 
+| StudentId |  Course  |  Hobby   |
+|-----------|----------|----------|
+|     1     |    C#    | Football |
+|     2     |    PHP   |  Tenis   |
+|     1     |  Python  |   SC2    |
+
+```diff 
+- Columns Course and Hobby are not rellated
+@@ A possible solution is split this table into two tables @@
+```
+
+| Id | StudentId |  Course  |
+|----|-----------|----------|
+| 1  |     1     |    C#    |
+| 2  |     2     |    PHP   |
+| 3  |     1     |  Python  |
+
+   
+| Id | StudentId |  Hobby   |
+|----|-----------|----------|
+| 1  |     1     | Football |
+| 2  |     2     |  Tenis   |
+| 3  |     1     |   SC2    |
+
 ## Types of joins
 
 ![Types of Joins](T-SQL%20Joins.png "Types of Joins")

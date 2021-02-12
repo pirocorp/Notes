@@ -17,7 +17,7 @@
 	|     2     |     1     | 5.50 |  Niki   |  
 	
 ```diff 
-! Mark is dependent on both StudentId and SubjectId.
++ Mark is dependent on both StudentId and SubjectId.
 ```
 
 

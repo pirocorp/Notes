@@ -5,11 +5,10 @@
     - All cells in each column have the same data type.
     - Each column has a unique name.
     - The order of rows doesn't matter.
-- I NF
+- II NF
     - All from I NF.
     - No partial dependencies
-    - Each column has a unique name.
-    - The order of rows doesn't matter.
+
 
 
 

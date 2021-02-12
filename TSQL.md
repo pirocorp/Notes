@@ -1,6 +1,6 @@
 ## Database Normalization
 
-  -I NF
+  - I NF
 
 ## Types of joins
 

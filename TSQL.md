@@ -7,8 +7,8 @@
 - The order of rows doesn't matter.
     
 ### II NF
-    - All from I NF.
-    - No partial dependencies
+- All from I NF.
+- No partial dependencies
   
 <br />
 
@@ -25,9 +25,9 @@
 @@ A possible solution is to move the Teacher column in the Subject table. @@
 ```
 
-- III NF
-    - All from II NF.
-    - No transitional dependencies.
+### III NF
+- All from II NF.
+- No transitional dependencies.
 
 <br />    
 
@@ -58,9 +58,9 @@
 | 1  |  Theory  |   6.00    |
 | 2  | Practice |    100    |
 
-- III.V NF (BCNF)
-    - All from III NF.
-    - If A -> B, A must be super-key
+### III.V NF (BCNF)
+- All from III NF.
+- If A -> B, A must be super-key
     
     
 | StudentId | SubjectId |  Teacher  |  Mark  |

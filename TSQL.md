@@ -9,7 +9,7 @@
     - All from I NF.
     - No partial dependencies
   
-   
+<br />   
 	| StudentId | SubjectId | Mark | Teacher |
 	|-----------|-----------|------|---------|
 	|     1     |     1     | 5.00 |  Niki   |  

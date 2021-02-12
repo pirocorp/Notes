@@ -168,7 +168,7 @@ Table D
 
 ```diff 
 - Table D is not the same as Table A (join dependency).
-@@ A possible solution is to split this table A into three tables @@
+@@ A possible solution is to split table A into three tables @@
 ```
 
 Table X

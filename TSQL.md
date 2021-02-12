@@ -61,6 +61,26 @@
 - III.V NF (BCNF)
     - All from III NF.
     - If A -> B, A must be super-key
+    
+    
+| StudentId | SubjectId |  Teacher  |  Mark  |
+|-----------|-----------|-----------|--------|
+|     1     |     1     |   Jhon    |  5.00  |
+|     2     |     2     |    Tom    |  5.50  |
+|     2     |     1     |    Bob    |  6.00  |
+
+| Id | Subject |
+|----|---------|
+| 1  |   C#    |
+| 2  | Python  |
+
+
+| Id | SubjectId |  Teacher |
+|----|-----------|----------|
+| 1  |     1     |   Jhon   |
+| 2  |     2     |   Tom    |
+| 3  |     1     |   Bob    |
+
 
 ## Types of joins
 

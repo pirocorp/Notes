@@ -166,6 +166,35 @@ Table D
 | 4  |     1     |    PHP   | Baden  |
 | 5  |     2     |    C#    | Baden  |
 
+```diff 
+- Table D is not smae like Table A (join dependency).
+@@ A possible solution is to split this table A into three tables @@
+```
+
+Table A`
+
+| Id | StudentId |  Course  |
+|----|-----------|----------|
+| 1  |     1     |    C#    |   
+| 2  |     1     |    PHP   |
+| 3  |     2     |    C#    |
+
+Table A``
+
+| Id | StudentId |  City  |
+|----|-----------|--------|
+| 1  |     1     | Vienna |
+| 2  |     1     | Baden  |
+| 3  |     2     | Baden  |
+
+Table A```
+
+| Id | CourseId |  CityId  |
+|----|----------|----------|
+| 1  |     1    |     1    |
+| 2  |     2    |     2    |
+| 3  |     3    |     3    |
+
 ## Types of joins
 
 ![Types of Joins](T-SQL%20Joins.png "Types of Joins")

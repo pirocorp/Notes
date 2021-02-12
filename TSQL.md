@@ -19,8 +19,9 @@
 |     2     |     1     | 5.50 |  John   |  
      
 ```diff 
-+ Mark is functionality dependent on both StudentId and SubjectId.
-- The Teacher is partially dependent - only on SubjectId.
+# P is primary column NP is non-primary
++ Mark is functionality dependent on both StudentId and SubjectId. (P -> NP)
+- The Teacher is partially dependent - only on SubjectId. (0.5 P => NP)
 @@ A possible solution is to move the Teacher column in the Subject table. @@
 ```
 
@@ -38,8 +39,9 @@
 
 
 ```diff 
-- The Max Score is dependant on the Exam column, which is not a key column (transitional dependency). (A -> B, B -> C => A -> C)
-+ And Exam is dependant on SubjectId (functionally dependency).
+# P is primary column NP is non-primary
+- The Max Score is dependant on the Exam column, which is not a key column (transitional dependency). (A -> B, B -> C => A -> C) (NP -> NP)
++ And Exam is dependant on SubjectId (functionally dependency). (P -> NP)
 @@ A possible solution is to move the Exam and Max Score to a new table and add a column with a foreign key pointing to the new table. @@
 ```
 

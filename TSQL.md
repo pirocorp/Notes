@@ -6,8 +6,9 @@
     - Each column has a unique name.
     - The order of rows doesn't matter.
    - II NF
-    - All from I NF.  
-    - No partial dependencies.
+    - All from I NF.
+    - The order of rows doesn't matter.
+    - aaa
      
 
 	| StudentId | SubjectId | Mark | Teacher |

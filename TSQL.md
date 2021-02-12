@@ -10,14 +10,14 @@
     - No partial dependencies.
      
 
-	| StdId | SubjectId | Mark | Teacher |
-	|-------|-----------|------|---------|
-	|   1   |     1     | 5.00 |  Niki   |  
-	|   1   |     2     | 6.00 |  Pesho  |  
-	|   2   |     1     | 5.50 |  Niki   |  
+	| StudentId | SubjectId | Mark | Teacher |
+	|-----------|-----------|------|---------|
+	|     1     |     1     | 5.00 |  Niki   |  
+	|     1     |     2     | 6.00 |  Pesho  |  
+	|     2     |     1     | 5.50 |  Niki   |  
 	
 ```diff 
-- text in red 
+! Mark is dependent on both 
 ```
 
 

@@ -20,7 +20,7 @@
      
 ```diff 
 + Mark is functionality dependent on both StudentId and SubjectId.
-- The teacher is partially dependent - only on SubjectId.
+- The Teacher is partially dependent - only on SubjectId.
 @@ A possible solution is to move the Teacher column in the Subject table. @@
 ```
 
@@ -36,6 +36,12 @@
 | 2  |     1     |     2     |  85  | Practice |    100    |
 | 3  |     2     |     1     |  82  | Practice |    100    |
 
+
+```diff 
+- The Max Score is dependant on the Exam column, which is not a key column (transitional dependency). (A -> B, B -> C => A -> C)
++ And Exam is dependant on SubjectId (functionally dependency).
+@@ A possible solution is to move the Exam and Max Score to a new table and add a column with a foreign key pointing to the new table. @@
+```
 
 ## Types of joins
 

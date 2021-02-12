@@ -127,6 +127,12 @@
 | 2  |     2     |  Tenis   |
 | 3  |     1     |   SC2    |
 
+
+### V NF
+- All from IV NF (BCNF).
+- No join dependency. (If table A is divided into tables B and C, and then tables B and C are joined the result must be again table A)
+
+
 ## Types of joins
 
 ![Types of Joins](T-SQL%20Joins.png "Types of Joins")

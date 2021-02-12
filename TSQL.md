@@ -60,7 +60,7 @@
 
 ### III.V NF (BCNF)
 - All from III NF.
-- If A -> B, but A must be super-key
+- If A -> B, but A must be super-key.
     
     
 | StudentId |  Subject  |  Teacher  |  Mark  |
@@ -95,6 +95,10 @@
 | 1  |     C#    |   Jhon    |
 | 2  |   Python  |    Tom    |
 | 3  |     C#    |    Bob    |
+
+### IV NF
+- All from III.V NF (BCNF).
+- If A -> B, but A must be super-key.
 
 ## Types of joins
 

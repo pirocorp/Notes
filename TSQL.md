@@ -17,7 +17,8 @@
 	|     2     |     1     | 5.50 |  Niki   |  
 	
 ```diff 
-+ Mark is dependent on both StudentId and SubjectId.
++ Mark is functionality dependent on both StudentId and SubjectId.
+- The teacher is partially dependent - only on SubjectId.
 ```
 
 

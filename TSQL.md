@@ -61,7 +61,8 @@
 ### III.V NF (BCNF)
 - All from III NF.
 - If A -> B, but A must be super-key.
-    
+
+<br />
     
 | StudentId |  Subject  |  Teacher  |  Mark  |
 |-----------|-----------|-----------|--------|
@@ -99,6 +100,8 @@
 ### IV NF
 - All from III.V NF (BCNF).
 - No multi-valued dependency.
+
+<br />
 
 | StudentId |  Course  |  Hobby   |
 |-----------|----------|----------|

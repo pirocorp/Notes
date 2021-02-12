@@ -98,7 +98,7 @@
 
 ### IV NF
 - All from III.V NF (BCNF).
-- If A -> B, but A must be super-key.
+- No multi-valued dependency.
 
 ## Types of joins
 

@@ -110,7 +110,7 @@
 |     1     |  Python  |   SC2    |
 
 ```diff 
-- Columns Course and Hobby are not rellated
+- Columns Course and Hobby are not rellated (multi-valued dependency).
 @@ A possible solution is to split this table into two tables @@
 ```
 

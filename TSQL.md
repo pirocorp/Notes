@@ -171,7 +171,7 @@ Table D
 @@ A possible solution is to split this table A into three tables @@
 ```
 
-Table A`
+Table X
 
 | Id | StudentId |  Course  |
 |----|-----------|----------|
@@ -179,7 +179,7 @@ Table A`
 | 2  |     1     |    PHP   |
 | 3  |     2     |    C#    |
 
-Table A``
+Table Y
 
 | Id | StudentId |  City  |
 |----|-----------|--------|
@@ -187,9 +187,9 @@ Table A``
 | 2  |     1     | Baden  |
 | 3  |     2     | Baden  |
 
-Table A```
+Table Z
 
-| Id | CourseId |  CityId  |
+| Id |    XId   |    YId   |
 |----|----------|----------|
 | 1  |     1    |     1    |
 | 2  |     2    |     2    |

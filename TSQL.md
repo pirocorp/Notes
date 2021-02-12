@@ -80,14 +80,14 @@
 # P is primary column NP is non-primary
 + Mark is functionality dependent on both StudentId and SubjectId. (P -> NP)
 - Teacher defines Subject which is super-key (A -> B, but B is super-key) (NP -> P)
-@@ A possible solution is to remove the Teacher and Subject columns and to point to SubjectTeacher Table @@
+@@ A possible solution is to remove the Teacher and Subject columns and to point to Teacher table @@
 ```
 
-| StudentId |  SubjectTeacherId  |  Mark  |
-|-----------|--------------------|--------|
-|     1     |        1           |  5.00  |
-|     2     |        2           |  5.50  |
-|     3     |        3           |  6.00  |
+| StudentId |  TeacherId  |  Mark  |
+|-----------|-------------|--------|
+|     1     |      1      |  5.00  |
+|     2     |      2      |  5.50  |
+|     3     |      3      |  6.00  |
 
 
 | Id |  Subject  |  Teacher  |

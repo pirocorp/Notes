@@ -60,7 +60,7 @@
 
 ### III.V NF (BCNF)
 - All from III NF.
-- If A -> B, A must be super-key
+- If A -> B, but A must be super-key
     
     
 | StudentId | SubjectId |  Teacher  |  Mark  |

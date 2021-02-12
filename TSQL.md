@@ -11,14 +11,14 @@
     
     
         |-------+-----------+------+---------|  
-	| StdId	| SubjectId | Mark | Teacher |  
+	|&nbsp;StdId&nbsp;|&nbsp;SubjectId&nbsp;|&nbsp;Mark&nbsp;|&nbsp;Teacher&nbsp;|  
 	|-------+-----------+------+---------|  
-	|   1   |     1     | 5.00 |  Niki   |  
+	|&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;5.00&nbsp;|&nbsp;&nbsp;Niki&nbsp;&nbsp;&nbsp;|  
 	|-------+-----------+------+---------|  
-	|   1  	|     2     | 6.00 |  Pesho  |  
+	|&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;6.00&nbsp;|&nbsp;&nbsp;Pesho&nbsp;&nbsp;|  
 	|-------+-----------+------+---------|  
-	|   2   |     1     | 5.50 |  Niki   |  
-	|-------+-----------+------+---------|  
+	|&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;5.50&nbsp;|&nbsp;&nbsp;Niki&nbsp;&nbsp;&nbsp;|  
+	|-------+-----------+------+---------|   
 
 ## Types of joins
 

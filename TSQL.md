@@ -16,7 +16,9 @@
 	|   1   |     2     | 6.00 |  Pesho  |  
 	|   2   |     1     | 5.50 |  Niki   |  
 	
-```diff - text in red ```
+```diff 
+- text in red 
+```
 
 
 ## Types of joins

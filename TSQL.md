@@ -161,8 +161,8 @@ Table D
 | Id | StudentId |  Course  |  City  |
 |----|-----------|----------|--------|
 | 1  |     1     |    C#    | Vienna |
-| 2  |     1     |    C#    | Baden  |
-| 3  |     1     |    PHP   | Vienna |
+| 2  |     1     |    C#    | Baden  | ?
+| 3  |     1     |    PHP   | Vienna | ?
 | 4  |     1     |    PHP   | Baden  |
 | 5  |     2     |    C#    | Baden  |
 

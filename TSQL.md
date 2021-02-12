@@ -12,7 +12,6 @@
   
 <br />
 
-
 | StudentId | SubjectId | Mark | Teacher |
 |-----------|-----------|------|---------|
 |     1     |     1     | 5.00 |  John   |  
@@ -28,6 +27,14 @@
 - III NF
     - All from II NF.
     - No transitional dependencies.
+
+<br />    
+
+| Id | StudentId | SubjectId | Mark |   Exam   | Max Score |
+|----|-----------|-----------|------|----------|-----------|
+| 1  |     1     |     1     | 3.50 |  Theory  |   6.00    |
+| 2  |     1     |     2     |  85  | Practice |    100    |
+| 3  |     2     |     1     |  82  | Practice |    100    |
 
 
 ## Types of joins

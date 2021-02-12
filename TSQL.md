@@ -167,7 +167,7 @@ Table D
 | 5  |     2     |    C#    | Baden  |
 
 ```diff 
-- Table D is not smae like Table A (join dependency).
+- Table D is not the same as Table A (join dependency).
 @@ A possible solution is to split this table A into three tables @@
 ```
 

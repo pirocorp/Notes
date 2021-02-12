@@ -8,7 +8,7 @@
 - II NF
     - All from I NF.
     - No partial dependencies
-  
+&nbsp;
   
 	| StudentId | SubjectId | Mark | Teacher |
 	|-----------|-----------|------|---------|

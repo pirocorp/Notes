@@ -25,8 +25,8 @@
 ```
 
 - III NF
-    - All from I NF.
-    - No partial dependencies
+    - All from II NF.
+    - No transitional dependencies.
 
 
 ## Types of joins

@@ -18,14 +18,15 @@
 |     1     |     2     | 6.00 |  Tom    |  
 |     2     |     1     | 5.50 |  John   |  
      
-
-
-	
 ```diff 
 + Mark is functionality dependent on both StudentId and SubjectId.
 - The teacher is partially dependent - only on SubjectId.
 @@ A possible solution is to move the Teacher column in the Subject table. @@
 ```
+
+- III NF
+    - All from I NF.
+    - No partial dependencies
 
 
 ## Types of joins

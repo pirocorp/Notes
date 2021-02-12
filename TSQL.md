@@ -63,26 +63,38 @@
 - If A -> B, but A must be super-key
     
     
-| StudentId | SubjectId |  Teacher  |  Mark  |
+| StudentId |  Subject  |  Teacher  |  Mark  |
 |-----------|-----------|-----------|--------|
-|     1     |     1     |   Jhon    |  5.00  |
-|     2     |     2     |    Tom    |  5.50  |
-|     3     |     1     |    Bob    |  6.00  |
+|     1     |     C#    |   Jhon    |  5.00  |
+|     2     |   Python  |    Tom    |  5.50  |
+|     3     |     C#    |    Bob    |  6.00  |
 
 
-| Id | SubjectId |  Teacher |
-|----|-----------|----------|
-| 1  |     1     |   Jhon   |
-| 2  |     2     |   Tom    |
-| 3  |     1     |   Bob    |
+| Id |  Subject  |  Teacher  |
+|----|-----------|-----------|
+| 1  |     C#    |   Jhon    |
+| 2  |   Python  |    Tom    |
+| 3  |     C#    |    Bob    |
 
 ```diff 
 # P is primary column NP is non-primary
 + Mark is functionality dependent on both StudentId and SubjectId. (P -> NP)
-- Teacher defines SubjectId which is super-key (A -> B, but B is super-key) (NP -> P)
-@@ A possible solution is to remove the Teacher and SubjectId columns and to point to SubjectTeacher Table @@
+- Teacher defines Subject which is super-key (A -> B, but B is super-key) (NP -> P)
+@@ A possible solution is to remove the Teacher and Subject columns and to point to SubjectTeacher Table @@
 ```
 
+| StudentId |  SubjectTeacherId  |  Mark  |
+|-----------|--------------------|--------|
+|     1     |        1           |  5.00  |
+|     2     |        2           |  5.50  |
+|     3     |        3           |  6.00  |
+
+
+| Id |  Subject  |  Teacher  |
+|----|-----------|-----------|
+| 1  |     C#    |   Jhon    |
+| 2  |   Python  |    Tom    |
+| 3  |     C#    |    Bob    |
 
 ## Types of joins
 

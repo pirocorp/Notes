@@ -10,15 +10,12 @@
     - No partial dependencies.
     
     
-        |-------+-----------+------+---------|  
-	|&nbsp;StdId&nbsp;|&nbsp;SubjectId&nbsp;|&nbsp;Mark&nbsp;|&nbsp;Teacher&nbsp;|  
-	|-------+-----------+------+---------|  
-	|&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;5.00&nbsp;|&nbsp;&nbsp;Niki&nbsp;&nbsp;&nbsp;|  
-	|-------+-----------+------+---------|  
-	|&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;6.00&nbsp;|&nbsp;&nbsp;Pesho&nbsp;&nbsp;|  
-	|-------+-----------+------+---------|  
-	|&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;5.50&nbsp;|&nbsp;&nbsp;Niki&nbsp;&nbsp;&nbsp;|  
-	|-------+-----------+------+---------|   
+          
+	| StdId | SubjectId | Mark | Teacher |
+	|-------|-----------|------|---------|
+	|   1   |     1     | 5.00 |  Niki   |  
+	|   1   |     2     | 6.00 |  Pesho  |  
+	|   2   |     1     | 5.50 |  Niki   |  
 
 ## Types of joins
 

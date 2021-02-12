@@ -24,7 +24,7 @@
 ```diff 
 + Mark is functionality dependent on both StudentId and SubjectId.
 - The teacher is partially dependent - only on SubjectId.
-@@ A possible solution is to move the teacher column in the Subject table. @@
+@@ A possible solution is to move the Teacher column in the Subject table. @@
 ```
 
 

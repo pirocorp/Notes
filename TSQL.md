@@ -67,7 +67,7 @@
 |-----------|-----------|-----------|--------|
 |     1     |     1     |   Jhon    |  5.00  |
 |     2     |     2     |    Tom    |  5.50  |
-|     2     |     1     |    Bob    |  6.00  |
+|     3     |     1     |    Bob    |  6.00  |
 
 | Id | Subject |
 |----|---------|
@@ -80,6 +80,13 @@
 | 1  |     1     |   Jhon   |
 | 2  |     2     |   Tom    |
 | 3  |     1     |   Bob    |
+
+```diff 
+# P is primary column NP is non-primary
++ Mark is functionality dependent on both StudentId and SubjectId. (P -> NP)
+- Teacher defines SubjectId which is super-key (A -> B, but B is super-key) (NP -> P)
+@@ A possible solution is to move the Teacher column in the Subject table. @@
+```
 
 
 ## Types of joins

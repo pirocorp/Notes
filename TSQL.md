@@ -9,13 +9,13 @@
     - All from I NF
     - No partial dependencies.
      
-```diff
+
 	| StdId | SubjectId | Mark | Teacher |
 	|-------|-----------|------|---------|
-	|   1   |     1     |+ 5.00|  Niki   |  
+	|   1   |     1     |```diff+ 5.00```|  Niki   |  
 	|   1   |     2     |+ 6.00|  Pesho  |  
 	|   2   |     1     |+ 5.50|  Niki   |  
-```
+
 
 ## Types of joins
 

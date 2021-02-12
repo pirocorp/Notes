@@ -195,6 +195,11 @@ Table Z
 | 2  |     2    |     2    |
 | 3  |     3    |     3    |
 
+
+### VI NF
+- All from V NF.
+- Every table to be composed of one primary key and max one other non-key column (attribute).
+
 ## Types of joins
 
 ![Types of Joins](T-SQL%20Joins.png "Types of Joins")

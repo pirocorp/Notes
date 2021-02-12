@@ -5,9 +5,20 @@
     - All cells in each column have the same data type.
     - Each column has a unique name.
     - The order of rows doesn't matter.
+- I NF
+    - One cell has one value.
+    - All cells in each column have the same data type.
+    - Each column has a unique name.
+    - The order of rows doesn't matter.
    - II NF
     - All from I NF.
 
+
+	| StudentId | SubjectId | Mark | Teacher |
+	|-----------|-----------|------|---------|
+	|     1     |     1     | 5.00 |  Niki   |  
+	|     1     |     2     | 6.00 |  Pesho  |  
+	|     2     |     1     | 5.50 |  Niki   |  
      
 
 

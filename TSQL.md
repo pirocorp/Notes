@@ -7,7 +7,7 @@
     - The order of rows doesn't matter.
    - II NF
     - All from I NF.
-    - No partial dependencies.
+    -No partial dependencies.
      
 
 	| StudentId | SubjectId | Mark | Teacher |

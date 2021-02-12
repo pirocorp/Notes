@@ -111,7 +111,7 @@
 
 ```diff 
 - Columns Course and Hobby are not rellated
-@@ A possible solution is split this table into two tables @@
+@@ A possible solution is to split this table into two tables @@
 ```
 
 | Id | StudentId |  Course  |

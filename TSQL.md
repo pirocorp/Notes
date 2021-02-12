@@ -56,6 +56,10 @@
 | 1  |  Theory  |   6.00    |
 | 2  | Practice |    100    |
 
+- III.V NF (BCNF)
+    - All from III NF.
+    - If A -> B, A must be super-key
+
 ## Types of joins
 
 ![Types of Joins](T-SQL%20Joins.png "Types of Joins")

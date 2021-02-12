@@ -132,6 +132,39 @@
 - All from IV NF (BCNF).
 - No join dependency. (If table A is divided into tables B and C, and then tables B and C are joined the result must be again table A)
 
+Table A
+
+| Id | StudentId |  Course  |  City  |
+|----|-----------|----------|--------|
+| 1  |     1     |    C#    | Vienna |
+| 2  |     1     |    PHP   | Baden  |
+| 3  |     2     |    C#    | Baden  |
+
+Table B
+
+| Id | StudentId |  Course  |
+|----|-----------|----------|
+| 1  |     1     |    C#    |   
+| 2  |     1     |    PHP   |
+| 3  |     2     |    C#    |
+
+Table C
+
+| Id | StudentId |  City  |
+|----|-----------|--------|
+| 1  |     1     | Vienna |
+| 2  |     1     | Baden  |
+| 3  |     2     | Baden  |
+
+Table D
+
+| Id | StudentId |  Course  |  City  |
+|----|-----------|----------|--------|
+| 1  |     1     |    C#    | Vienna |
+| 2  |     1     |    C#    | Baden  |
+| 3  |     1     |    PHP   | Vienna |
+| 4  |     1     |    PHP   | Baden  |
+| 5  |     2     |    C#    | Baden  |
 
 ## Types of joins
 

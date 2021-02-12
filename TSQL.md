@@ -43,6 +43,19 @@
 @@ A possible solution is to move the Exam and Max Score to a new table and add a column with a foreign key pointing to the new table. @@
 ```
 
+| Id | StudentId | SubjectId | Mark | ExamMaxScoreId |
+|----|-----------|-----------|------|----------------|
+| 1  |     1     |     1     | 3.50 |       1        |
+| 2  |     1     |     2     |  85  |       2        |
+| 3  |     2     |     1     |  82  |       2        |
+
+<br />
+
+| Id |   Exam   | Max Score |
+|----|----------|-----------|
+| 1  |  Theory  |   6.00    |
+| 2  | Practice |    100    |
+
 ## Types of joins
 
 ![Types of Joins](T-SQL%20Joins.png "Types of Joins")

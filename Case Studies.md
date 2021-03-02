@@ -27,3 +27,16 @@ It's a question about data structures. Let's see how we can solve it. Obviously,
 2. Sorting the text by words is a bit more complicated. We need to consider what is defined as "word", but let's say it is a sequence of letters without any other symbol. There are two approaches to solve the task depending on the available memory. If we have enough memory (8 GB are more than enough if we have only the English alphabet), we can use the so-called Trie data structure. On each node, we can store how many times a specific word has occurred so far. After filling the trie, we can easily traverse it and save the sorted result in a file. The other approach is to use the external merge sort algorithm. The idea is straightforward - the elements cannot be sorted at once as the size is huge, so the data is divided into chunks and then sorted using merge sort. The sorted data is then dumped into multiple files. Then, we can read chunks from these files and perform merge sort on them. Repeating this process will produce a single sorted file.
 
 3. Sorting the text by lines needs to be done with the external merge sort algorithm I explained in the previous point.
+
+## Object Comparison
+
+You need to implement a method which compares two objects. The method's signature is:
+
+public Result AreEqual(object first, object second);
+
+You need to compare the two objects by their data and not by their reference. If the data is the same, you should return a positive result.
+Answer the following questions:
+1. What kind of algorithm are you going to use to solve the task? 
+2. What are the difficulties and the edge cases in this problem? 
+3. If there is a difference in the data, how are you going to return the error message? 
+4. What is your time estimation for writing a production-ready solution? 

@@ -40,3 +40,13 @@ Answer the following questions:
 2. What are the difficulties and the edge cases in this problem? 
 3. If there is a difference in the data, how are you going to return the error message? 
 4. What is your time estimation for writing a production-ready solution? 
+
+## Object Comparison Solution
+
+1. To compare the objects' data, we will need to traverse all their properties and check whether their values are equal. Since we are working with unknown classes - just generic "object" type, we will need to use reflection to extract what we need. Because objects can be nested - for example, a cat may have an owner, and an owner may have a hometown - we will need to use recursion and perform the same comparison algorithm on each nested object.
+
+2. The edge cases here are quite a lot, and I do not expect people to mention them all without writing any code first, but you should be able to think of at least one or two. You need to consider collections, circular references (by storing somehow that we already visited an object), IComparable implementations, overridden Equals method, and more. You can check my own full implementation of the algorithm here.
+
+3. We may return simply "true" or "false". However, it will be difficult for the client code to understand where exactly the error is with bigger object hierarchies. For this reason, it is a good idea to have a result object to store the full path of the potential error. I have video lessons explaining the algorithm and implementing this feature here.
+
+4. It is a difficult algorithm, so if you are not experienced enough, you should need at least 1 week with all the testing required.

@@ -45,7 +45,7 @@ Answer the following questions:
 
 1. To compare the objects' data, we will need to traverse all their properties and check whether their values are equal. Since we are working with unknown classes - just generic "object" type, we will need to use reflection to extract what we need. Because objects can be nested - for example, a cat may have an owner, and an owner may have a hometown - we will need to use recursion and perform the same comparison algorithm on each nested object.
 
-2. The edge cases here are quite a lot, and I do not expect people to mention them all without writing any code first, but you should be able to think of at least one or two. You need to consider collections, circular references (by storing somehow that we already visited an object), IComparable implementations, overridden Equals method, and more. You can check my own full implementation of the algorithm [here](TODO).
+2. The edge cases here are quite a lot, and I do not expect people to mention them all without writing any code first, but you should be able to think of at least one or two. You need to consider collections, circular references (by storing somehow that we already visited an object), IComparable implementations, overridden Equals method, and more. Full implementation of the algorithm [here](https://github.com/pirocorp/CSharp-Playground/tree/main/03.%20Deep%20Equality%20Algorithm).
 
 3. We may return simply "true" or "false". However, it will be difficult for the client code to understand where exactly the error is with bigger object hierarchies. For this reason, it is a good idea to have a result object to store the full path of the potential error. 
 

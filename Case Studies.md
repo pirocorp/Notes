@@ -54,6 +54,9 @@ Answer the following questions:
 ## Database Overload
 
 You have a fairly old web system with a lot of data. The application is monolithic and has a single database on the same server. Lately, the business around the system is booming, and many users are constantly online. You start to notice that after the load reaches 800 concurrent users, the application is getting quite slow and unresponsive. You analyze some metrics and discover that the database is overloaded. The CEO is not happy and wants you to improve the system. What are your possible solutions and why?
+
+## Database Overload Solution
+
 Let's see most of the common possible solutions. The key is to prioritize the development resources and do not overcomplicate the problem unless deemed completely necessary:
 
 1. First, we need to validate our database queries are as optimal as possible for the specific business case. Most database technologies have tools for analyzing performance. For SQL Server, you can use SQL Server Profiler and then the actual execution plan for the query. This will give us information on how much is the actual cost of each separate data operation. 👈

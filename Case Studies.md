@@ -53,8 +53,6 @@ Answer the following questions:
 
 ## Database Overload
 
-February's code challenge was all about database optimization:
-
 You have a fairly old web system with a lot of data. The application is monolithic and has a single database on the same server. Lately, the business around the system is booming, and many users are constantly online. You start to notice that after the load reaches 800 concurrent users, the application is getting quite slow and unresponsive. You analyze some metrics and discover that the database is overloaded. The CEO is not happy and wants you to improve the system. What are your possible solutions and why?
 Let's see most of the common possible solutions. The key is to prioritize the development resources and do not overcomplicate the problem unless deemed completely necessary:
 

@@ -70,9 +70,7 @@ Let's see most of the common possible solutions. The key is to prioritize the de
 
 Of course, there are more possible solutions, but it depends on the specific case. The above listed are the most commonly used ones and many of you wrote to me with well-defined and correct answers. 🤓
 
-I hope you liked this code challenge. The purpose of these questions is to show you interesting practical tasks or interview questions. 😵
 
-Thank you for being part of my mentorship program! 🙏
 
 
 

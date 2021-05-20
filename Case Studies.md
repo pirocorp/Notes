@@ -2,7 +2,7 @@
 
 You need to design the server of a web page, which sells a product. The web page has a lot of visitors - more than 1 000 000 per month. The marketing team wants you to add a promo code, which is only for the first 10 000 people who claim it. The promo code will be available at a specific date and time. For example, October 10th, 12:00 PM. All the site's users will receive an e-mail newsletter about the promotion two days prior to that date so everyone knows about the code and the huge discount. Lots of people (more than 100 000) will start refreshing the site to try to purchase the product at the same time. How would you handle the server logic? How would you guarantee that exactly 10 000 people will receive the discount?
 
-## Promo Codes On Scale Solution
+### Promo Codes On Scale Solution
 
 There are two problems with the above requirements in a typical solution:
 
@@ -18,7 +18,7 @@ You have a file containing 100 GB of text. Your machine has 8 GB of memory. Your
 2. Sort it by words.
 3. Sort it by lines.
 
-## Huge Text File Solution
+### Huge Text File Solution
 
 It's a question about data structures. Let's see how we can solve it. Obviously, we do not have enough memory to read the whole file, so we need to read and process it in small chunks. 
 
@@ -41,7 +41,7 @@ Answer the following questions:
 3. If there is a difference in the data, how are you going to return the error message? 
 4. What is your time estimation for writing a production-ready solution? 
 
-## Object Comparison Solution
+### Object Comparison Solution
 
 1. To compare the objects' data, we will need to traverse all their properties and check whether their values are equal. Since we are working with unknown classes - just generic "object" type, we will need to use reflection to extract what we need. Because objects can be nested - for example, a cat may have an owner, and an owner may have a hometown - we will need to use recursion and perform the same comparison algorithm on each nested object.
 
@@ -55,7 +55,7 @@ Answer the following questions:
 
 You have a fairly old web system with a lot of data. The application is monolithic and has a single database on the same server. Lately, the business around the system is booming, and many users are constantly online. You start to notice that after the load reaches 800 concurrent users, the application is getting quite slow and unresponsive. You analyze some metrics and discover that the database is overloaded. The CEO is not happy and wants you to improve the system. What are your possible solutions and why?
 
-## Database Overload Solution
+### Database Overload Solution
 
 Let's see most of the common possible solutions. The key is to prioritize the development resources and do not overcomplicate the problem unless deemed completely necessary:
 
@@ -70,7 +70,14 @@ Let's see most of the common possible solutions. The key is to prioritize the de
 
 Of course, there are more possible solutions, but it depends on the specific case. The above listed are the most commonly used ones and many of you wrote to me with well-defined and correct answers. 🤓
 
+## Autocomplete 
 
+You have a very long list of sorted words, like in a real-world dictionary. Store them in memory and solve the following tasks:
+  a) Write a function to give you whether a word exists in the list - true or false result. 🤓
+  b) Implement autocompletion for the specific list. 🤔
+  
+ ### Autocomplete Solution
 
-
-
+  a) The tricky part here is not to overcomplicate things and introduce advanced data structures. A simple hash table (HashSet<T>) will be sufficient. It will give you a fast "contains" method which you can use to solve the problem. 👈
+  
+  b) The answer here is the data structure trie (prefix tree), which gives you a fast search over strings when the term is partial. It is an advanced data structure, so you should use it only if you really have a problem it solves. 👈

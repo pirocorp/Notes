@@ -73,11 +73,11 @@ Of course, there are more possible solutions, but it depends on the specific cas
 ## Autocomplete 
 
 You have a very long list of sorted words, like in a real-world dictionary. Store them in memory and solve the following tasks:
-  a) Write a function to give you whether a word exists in the list - true or false result. 🤓
-  b) Implement autocompletion for the specific list. 🤔
+  1. Write a function to give you whether a word exists in the list - true or false result. 🤓
+  2. Implement autocompletion for the specific list. 🤔
   
  ### Autocomplete Solution
 
-  a) The tricky part here is not to overcomplicate things and introduce advanced data structures. A simple hash table (HashSet<T>) will be sufficient. It will give you a fast "contains" method which you can use to solve the problem. 👈
+  1. The tricky part here is not to overcomplicate things and introduce advanced data structures. A simple hash table (HashSet<T>) will be sufficient. It will give you a fast "contains" method which you can use to solve the problem. 👈
   
-  b) The answer here is the data structure trie (prefix tree), which gives you a fast search over strings when the term is partial. It is an advanced data structure, so you should use it only if you really have a problem it solves. 👈
+  2. The answer here is the data structure trie (prefix tree), which gives you a fast search over strings when the term is partial. It is an advanced data structure, so you should use it only if you really have a problem it solves. 👈
